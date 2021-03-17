@@ -1,0 +1,147 @@
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+
+body{ 
+	color: #000; 
+	padding: 10px; 
+	margin: 10px; 
+	font-family:"lucida grande", tahoma, verdana, arial,sans-serif; 
+	font-size: 13px; 
+	text-decoration: none; 
+	padding: px; 
+	margin: 0px;
+}
+
+.halaman{
+	background-image: url("bg-01.jpg");
+	margin: 0 auto; 
+	border:1px solid #e4e4e4; 
+	border-top:12px; 
+	width: 300px; 
+	height: 180px; 
+	margin: 0 auto;
+}
+.header{ 
+	text-align:center;
+	color: #00000; 
+	padding: 10px; 
+	margin: 10px; 
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif; 
+	width: 990px; 
+	height: 180px; 
+	margin: 0 auto;
+	vertical-align: top,center;
+	background: linear-gradient(to right,white,pink,white);
+}
+
+.kiri{ 
+	background-image: url("bg-01.jpg");
+	width: 300px; 
+	margin: 0 auto; 
+	vertical-align: top; 
+	border: 1px solid #e4e4e4; 
+	border-top: 0px; 
+	border-left:0px; 
+	border-bottom: 0px; 
+	font-size: 13px;
+	padding: 5px; 
+}
+.kiri h1{
+    text-align: left;
+    color:  #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+
+
+.kanan{ 
+	width: 300px; 
+	margin: 0 auto; 
+	vertical-align: top; 
+	border: 1px solid #e4e4e4; 
+	border-top: 0px; 
+	border-left:0px; 
+	border-bottom: 0px; 
+	padding: 5px;
+	background-image: url("bg-01.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-color: rgba(0,0,0,.8);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+	
+}
+ 
+.kanan h1{
+    text-align: left;
+    color:  #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+.kanan label{
+    text-align: left;
+    color: #000000;
+}
+
+.kanan form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+.kanan form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#2979ff;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+.sosmed{ 
+	width: 990px; 
+	height: 40px; 
+	background: #d0f266;
+	font-size: 15px;  
+	padding: 10px;
+	color:#00000;
+	text-align:center;
+	font-family:times new roman;
+	position: relative;
+}
+
+.footer{ 
+	width: 990px; 
+	height: 40px; 
+	background: linear-gradient(to right,white,pink,white);
+	font-size: 15px;  
+	padding: 10px;
+	color:#00000;
+	text-align:center;
+	font-family:times new roman;
+}
